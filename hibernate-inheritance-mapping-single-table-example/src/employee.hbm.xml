@@ -12,6 +12,7 @@
 		</id>
 
 		<discriminator column="type" type="string"></discriminator>
+		<!--  column attribute can be used along with property to specify column name in table -->
 		<property name="firstName"></property>
 		<property name="lastName"></property>
 
