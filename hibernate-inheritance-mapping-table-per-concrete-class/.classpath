@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libs/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="libs/byte-buddy-1.8.12.jar"/>
+	<classpathentry kind="lib" path="libs/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="libs/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="libs/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/geolatte-geom-1.3.0.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-c3p0-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-commons-annotations-5.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-core-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-envers-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-jpamodelgen-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-osgi-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-proxool-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/hibernate-spatial-5.3.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jandex-2.0.3.Final.jar"/>
+	<classpathentry kind="lib" path="libs/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="libs/javax.interceptor-api-1.2.jar"/>
+	<classpathentry kind="lib" path="libs/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="libs/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="libs/jts-core-1.14.0.jar"/>
+	<classpathentry kind="lib" path="libs/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="libs/org.osgi.compendium-4.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/org.osgi.core-4.3.1.jar"/>
+	<classpathentry kind="lib" path="libs/postgresql-42.2.2.jar"/>
+	<classpathentry kind="lib" path="libs/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="libs/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="libs/mysql-connector-java-5.1.48.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
