@@ -23,7 +23,6 @@ public class Employee {
 	@GenericGenerator(name = "uuid", strategy = "uuid",parameters = {
 			@Parameter(name="separator",value ="-" )
 	})
-	@Column(name = "vana_column")
 	private String id;  
 
 	private String firstName;
