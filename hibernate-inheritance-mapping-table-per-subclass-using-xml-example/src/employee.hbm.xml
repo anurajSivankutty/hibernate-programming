@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+	<class name="me.anuraj.Employee" table="employee">
+		<id name="id">
+			<generator class="uuid">
+				<param name="separator">-</param>
+			</generator>
+		</id>
+		<property name="firstName"></property>
+		<property name="lastName"></property>
+	
+		<joined-subclass name="me.anuraj.RegularEmployee" table="regular_employee">
+			<key column="reid"></key>
+			<property name="salary"></property>
+			<property name="bonus"></property>
+		</joined-subclass>
+		
+		<joined-subclass name="me.anuraj.ContractEmployee" table="contract_employee">
+			<key column="ceId"></key>
+			<property name="payPerHour"></property>
+			<property name="contractDuration"></property>
+		</joined-subclass>
+	</class>
+</hibernate-mapping>
