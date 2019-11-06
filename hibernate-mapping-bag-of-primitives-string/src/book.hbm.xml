@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+          "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+          "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">
+
+<hibernate-mapping>
+	<class name="me.anuraj.Book" table="books">
+		<id name="id">
+			<generator class="sequence" />
+		</id>
+		<property name ="name" column="book_name"/>
+		<bag name="authors">
+			<key column="auth_id"></key>  
+			<element column="author_name" type="string"></element>
+		</bag>
+		
+	</class>
+</hibernate-mapping>
