@@ -10,8 +10,8 @@
 		</id>
 		<property name ="name" column="book_name"/>
 		
-		<set name="authors" table="book_authors" cascade="all">
-			<key column="auth_id"></key>  
+		<set name="authors" cascade="all">
+			<key column="book_id"></key>  
 			<one-to-many class="me.anuraj.Author"></one-to-many>
 		</set>
 		
